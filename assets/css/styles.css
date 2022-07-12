@@ -1,0 +1,11 @@
+
+nav {
+    background: linear-gradient(90deg, rgba(234,233,255,1) 0%, rgba(252,167,213,1) 35%, rgba(194,245,255,1) 100%);
+   }
+
+#myCarousel img {
+width: auto;
+height: 500px;
+max-height: 500px;
+}
+
