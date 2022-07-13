@@ -1,11 +1,32 @@
 
+
+/*body{
+    background-image: url('../images/Image4.jpg');
+}*/
+
 nav {
-    background: linear-gradient(90deg, rgba(234,233,255,1) 0%, rgba(252,167,213,1) 35%, rgba(194,245,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255, 230,179) 0%, rgba(252,167,213,1) 35%, rgba(194,245,255,1) 100%);
    }
 
-#myCarousel img {
+#carouselExampleIndicators img {
 width: auto;
-height: 500px;
-max-height: 500px;
+height: 800px;
+max-height: 800px;
+background-image: linear-gradient(rgba(255, 230,179) 0%, white 35%,rgba(153, 255, 230) 100%);
 }
 
+.carousel-inner{
+    height: 500px;
+  
+    
+}
+
+.my-cards{
+    background: #b8daba;
+}
+
+table img
+{
+    height: 150px;
+    width: 150px;
+}
