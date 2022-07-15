@@ -1,180 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indoor cute Plants </title>
-<!-- including the bootstrap CSS -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indoor cute Plants </title>
+  <!-- including the bootstrap CSS -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-<!-- include our global css file -->
-<link rel="stylesheet" href="assets/css/styleslogin.css">
+  <!-- include our global css file -->
+  <link rel="stylesheet" href="assets/css/styleslogin.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Plant is always a good plan! <i class="fa fa-leaf" aria-hidden="true"></i> </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link"  href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contactUs.html">Contact us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Products
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="Plants.html">Plants</a></li>
-                  <li><a class="dropdown-item" href="potplanters.html">Pot planters</a></li>
-                </ul>
 
-                 
-                      <li class="nav-item">
-                        <a class="nav-link nav-active" aria-current="page" href="login.html">Login</a>
-                      </li>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Plant is always a good plan! <i class="fa fa-leaf" aria-hidden="true"></i> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactUs.html">Contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="Plants.html">Plants</a></li>
+              <li><a class="dropdown-item" href="potplanters.html">Pot planters</a></li>
+            </ul>
+
+
+          <li class="nav-item">
+            <a class="nav-link nav-active" aria-current="page" href="login.html">Login</a>
+          </li>
+
+      </div>
+    </div>
+  </nav>
+  <br>
+  <br>
+
+  <body>
+    <div class="container container-login">
+      <div class="item-container">
+        <h2 class="log-in">Log in</h2>
+      </div>
+      <div class="item-container">
+
+      </div>
+      <div class="item-container">
+
+      </div>
+      <form name="loginform" action="index.html" method="get" target="_self">
+        <div class="form-input">
+          <label for="email" class="label">Email</label>
+          <input type="email">
+        </div>
+        <div class="form-input">
+          <label for="password" class="label">Password</label>
+          <input type="password">
+        </div>
+        <div class="display-space-between">
+          <div>
+            <input type="checkbox" checked>
+            <label for="password" class="chekbox-label">Remember Me</label>
+          </div>
+          <div>
+            <a href="#">Forget password</a>
 
           </div>
+          <div>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#bannerformmodal">Sign-up</a>
+          </div>
         </div>
-      </nav>
-      <br>
-      <br>
-      
-      <body>
-        <div class="container container-login">
-            <div class="item-container">
-                <h2 class="log-in">Log in</h2>
-            </div>
-            <div class="item-container">
-               
-            </div>
-            <div class="item-container">
-               
-            </div>
-            <form action="index.html" method="get" target="_self">
-                <div class="form-input">
-                    <label for="email" class="label">Email</label>
-                    <input type="email" >
-                </div>
-                <div class="form-input">
-                    <label for="password" class="label">Password</label>
-                    <input type="password" >
-                </div>
-                <div class="display-space-between">
-                    <div>
-                        <input type="checkbox" checked>
-                        <label for="password" class="chekbox-label">Remember Me</label>
-                    </div>
-                    <div>
-                        <a href="#">Forget password</a>
-                       
-                    </div>
-                  <div>
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#bannerformmodal">Sign-up</a>
-                  </div>
-                </div>
-                <div>
-                    <button class="btn-login" type="submit">Log in</button>
-                </div>
-            </form>
+        <div>
+          <button class="btn-login" type="submit">Log in</button>
+        </div>
+      </form>
 
-       
-        <!-- Modal -->
-  <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true" id="bannerformmodal">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-content">
-              <div class="modal-header">            
-              <h4 class="modal-title" id="myModalLabel">Registration Form</h4>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+
+      <!-- Modal -->
+      <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true"
+        id="bannerformmodal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Registration Form</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
               </div>
               <div class="modal-body">
-                   <form id="registrationform" method="POST" name="registrationform" class="was-validated">
+                <form id="registrationform" method="POST" name="registrationform" class="was-validated">
 
-                              <div class="form-group">
-                                  <div class="input-group">                               
-                                  <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                  <input id="first_name" type="text" class="form-control" placeholder="Name" name="name" required/>
-                                  <div class="valid-feedback">Valid.</div>
-                                  <div class="invalid-feedback">Please fill out this field.</div>
-                                  </div>
-                            </div>
-                            <br>
-                              <div class="form-group">
-                                  <div class="input-group">                               
-                                  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                  <input id="email1" type="email" class="form-control" placeholder="Email" name="email1" required/>
-                                  <div class="valid-feedback">Valid.</div>
-                                  <div class="invalid-feedback">Please fill out this field.</div>
-                                  </div>
-                            </div>
-                            <br>
-                            <div class="form-group">
-                              <div class="input-group">                               
-                              <span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
-                              <input id="pwd" type="text" class="form-control" placeholder="Password" name="pwd" required/>
-                              <div class="valid-feedback">Valid.</div>
-                                  <div class="invalid-feedback">Please fill out this field.</div>
-                              </div>
-                        </div>
-                            <br>
-                              <div class="form-group">
-                                  <div class="input-group">                               
-                                  <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                  <input id="phone_mobile" type="text" class="form-control" placeholder="Mobile" name="phone_mobile"/>
-                                  </div>
-                            </div>
-                            <br>
-                          <div class="form-group">
-                                  <div class="input-group">
-                                      <span class="input-group-addon"><i class="fa fa-building-o"></i></span>
-                                      <select class="form-control" name="Country" class="selectpicker select-bgcolor">
-                                        <option>City</option>
-                                          <option>Mexico</option>
-                                          <option>USA</option>
-                                          <option>England</option>
-                                          <option>Peru</option>
-                                          <option>Spain</option>
-                                          <option>Italy</option>
-                                      </select>
-                                  </div>
-                          </div>
-                          <br>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                      <input style="margin-left: 10px;" id="first_name" type="text" class="form-control"
+                        placeholder="Name" name="name" required />
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                      <input style="margin-left: 10px;" id="email1" type="email" class="form-control"
+                        placeholder="Email" name="email1" required />
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-key" aria-hidden="true"></i></span>
+                      <input style="margin-left: 10px;" id="pwd" type="text" class="form-control" placeholder="Password"
+                        name="pwd" required />
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                      <input style="margin-left: 10px;" id="phone_mobile" type="text" class="form-control"
+                        placeholder="Mobile" name="phone_mobile" />
+                    </div>
+                  </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-building-o"></i></span>
+                      <select style="margin-left: 10px;" class="form-control" name="Country"
+                        class="selectpicker select-bgcolor">
+                        <option>City</option>
+                        <option>Mexico</option>
+                        <option>USA</option>
+                        <option>England</option>
+                        <option>Peru</option>
+                        <option>Spain</option>
+                        <option>Italy</option>
+                      </select>
+                    </div>
+                  </div>
+                  <br>
 
-                          </form>
-                </div>
-            <div class="modal-footer">
-              <button type="submit" class="btn btn-blue">Submit</button>
-            </div>          
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-blue">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-    </div>
-</div>
-        
-
-    </body>
-      
-      
-      
-      <div class="container-fuild mb-80"></div>
-      <div class="container">
-      <footer class="text-dark d-flex justify-content-center fixed-bottom bg-mg">
-        <p><span>&#169;</span>Plants Planet</p>
-      </footer>
-      </div>
-    </div>
 
 
-    <!-- including the bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    
-    <script src="https://kit.fontawesome.com/6e433197f1.js" crossorigin="anonymous"></script>
+  </body>
+
+
+
+  <div class="container-fuild mb-80"></div>
+  <div class="container">
+    <footer class="text-dark d-flex justify-content-center fixed-bottom bg-mg">
+      <p><span>&#169;</span>Plants Planet</p>
+    </footer>
+  </div>
+  </div>
+
+
+  <!-- including the bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/6e433197f1.js" crossorigin="anonymous"></script>
+  <script>
+    function Validate() {
+    var empt = document.forms["loginform"]["email"].value;
+    var pas  = document.forms["loginform"]["password"].value;
+    if (empt == "") {
+        alert("Please input your email");
+    }
+    else if (pas == "")
+     {
+        alert('Please input your email');
+
+    }
+    else{
+      document.getElementById("loginform").submit();
+    }
+}
+  </script>
 </body>
+
 </html>
